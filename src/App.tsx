@@ -1,11 +1,23 @@
 import React from 'react';
+// import Button from './components/buttonYellow';
+// import ButtonDark from './components/buttonDark';
+import Navbar from './components/navbar';
+// import Footer from './components/footer';
+import Herosection from './components/hero';
 
-function App() {
+// import ReactDOM from 'react-dom';
+
+
+export default function App() {
   return (
-    <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12">
-      <h1 className="text-3xl font-bold text-red-900">Not Hello Hello World!</h1>
-    </div>
-  );
-}
+    <main>
 
-export default App;
+    <div>
+      <Navbar></Navbar>
+      <Herosection></Herosection>
+      
+    </div>
+  
+    </main>
+  )  
+}
