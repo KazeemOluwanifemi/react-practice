@@ -10,7 +10,7 @@ export default function Navbar(){
         <div className='logo-nd-nav-options flex items-center gap-navbar-gap'>
             <div className='flex nav-bar'>
                 <div className='flex logo-size my-0-0 justify-center  items-center'>
-                    <img src={process.env.PUBLIC_URL + '/build/logo.png'} alt="logotype and logomark" className='w-logo-width h-logo-height'/>
+                    <img src={process.env.PUBLIC_URL + '/build/logo.png'} alt="logotype and logomark" className='w-logo-width   h-logo-height'/>
                     <h2 className='text-brand-yellow font-Playfair
                     font-bold'>SmashZone</h2>
                 </div>
@@ -29,7 +29,7 @@ export default function Navbar(){
 
 
             <div className='w-icon-width h-icon-height flex icons justify-end cursor-pointer'>
-                <img src= '/user-white.png' alt="user-icon" />
+                <img src={process.env.PUBLIC_URL + '/user-white.png'} alt="user-icon" />
                 <img src={process.env.PUBLIC_URL + '/search-solid-white.png'} alt="search-icon" />
                 <img src={process.env.PUBLIC_URL + '/shopping-bag-03-white.png'} alt="shopping-bag-icon" />
             </div>
