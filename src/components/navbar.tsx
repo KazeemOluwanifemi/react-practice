@@ -1,18 +1,20 @@
 import React from 'react';
 
+// import logo from '../';
+
 // interface navbarItems{
 //     children: ReactNode;
 // }
 
 
 export default function Navbar(){
-    return <header className='bg-dark-two px-20 h-header-height flex items-center '>
+    return <header className='bg-dark-three px-20 h-header-height flex items-center '>
         <div className='logo-nd-nav-options flex items-center gap-navbar-gap'>
             <div className='flex nav-bar'>
                 <div className='flex logo-size my-0-0 justify-center  items-center'>
-                    <img src={process.env.PUBLIC_URL + '/build/logo.png'} alt="logotype and logomark" className='w-logo-width   h-logo-height'/>
+                    <img src={process.env.PUBLIC_URL + '/assets/images/logo-yellow.png'} alt = "logo"className='w-logo-width  h-logo-height'/>
                     <h2 className='text-brand-yellow font-Playfair
-                    font-bold'>SmashZone</h2>
+                    font-semibold font-'>SmashZone</h2>
                 </div>
 
                 <nav className='text-white font-Exo place-content-evenly justify-between'>
@@ -28,11 +30,12 @@ export default function Navbar(){
             </div>
 
 
-            <div className='w-icon-width h-icon-height flex icons justify-end cursor-pointer'>
-                <img src={process.env.PUBLIC_URL + '/user-white.png'} alt="user-icon" />
-                <img src={process.env.PUBLIC_URL + '/search-solid-white.png'} alt="search-icon" />
-                <img src={process.env.PUBLIC_URL + '/shopping-bag-03-white.png'} alt="shopping-bag-icon" />
+            <div className='flex icons justify-end cursor-pointer'>
+                <img src={process.env.PUBLIC_URL + '/assets/images/user-white.png'} alt="user-icon" />
+                <img src={process.env.PUBLIC_URL + '/assets/images/search-solid-white.png'} alt="search-icon" />
+                <img src={process.env.PUBLIC_URL + '/assets/images/shopping-bag-white.png'} alt="shopping-bag-icon" />
             </div>
         </div>
     </header>
 }
+
